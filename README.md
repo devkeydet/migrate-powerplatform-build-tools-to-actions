@@ -6,7 +6,7 @@ After following the instructions at [Migrating from Azure DevOps with GitHub Act
 
 `gh actions-importer audit azure-devops --output-dir audit --custom-transformers power-platform.rb`
 
-This custom transformer only accounts for two task to action conversions.  The sample source Azure DevOps pipeline used was:
+This custom transformer sample only accounts for two task to action conversions.  The sample source Azure DevOps pipeline used was:
 
 ```yaml
 trigger: none
