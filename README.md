@@ -8,7 +8,7 @@ After following the instructions at [Migrating from Azure DevOps with GitHub Act
 
 This custom transformer only accounts for two task to action conversions.  The sample source Azure DevOps pipeline used was:
 
-```
+```yaml
 trigger: none
 pool:
   vmImage: ubuntu-latest
@@ -27,7 +27,7 @@ steps:
 
 The converted GitHub Workflow produced:
 
-```
+```yaml
 name: ado-proj-name/ado-pipeline-name
 on:
   workflow_dispatch:
